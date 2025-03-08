@@ -1,0 +1,27 @@
+{
+    "name": "mdhedayet/appsumo-licensing",
+    "description": "Laravel package to integrate with AppSumo Licensing automatically",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+      "psr-4": {
+        "MdHedayet\\AppSumo\\": "src/"
+      }
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "MdHedayet\\AppSumo\\AppSumoServiceProvider"
+        ],
+        "aliases": {
+          "AppSumo": "MdHedayet\\AppSumo\\Facades\\AppSumo"
+        }
+      }
+    },
+    "require": {
+      "php": ">=7.4",
+      "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+      "guzzlehttp/guzzle": "^7.0"
+    }
+  }
+  
