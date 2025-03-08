@@ -1,17 +1,17 @@
 {
-    "name": "mdhedayet/appsumo-licensing",
+    "name": "mdhedayet/appsumolicensing",
     "description": "Laravel package to integrate with AppSumo Licensing automatically",
     "type": "library",
     "license": "MIT",
     "autoload": {
       "psr-4": {
-        "MdHedayet\\AppSumo-Licensing\\": "src/"
+        "mdhedayet\\appsumolicensing\\": "src/"
       }
     },
     "extra": {
       "laravel": {
         "providers": [
-          "MdHedayet\\AppSumo-Licensing\\AppSumoServiceProvider"
+          "mdhedayet\\appsumolicensing\\AppSumoServiceProvider"
         ]
       }
     },

@@ -1,6 +1,6 @@
 <?php
 
-namespace YourNamespace\AppSumo;
+namespace mdhedayet\appsumolicensing;
 
 use Illuminate\Support\ServiceProvider;
 

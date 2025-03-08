@@ -1,10 +1,10 @@
 <?php
 
-namespace YourNamespace\AppSumo\Controllers;
+namespace mdhedayet\appsumolicensing\AppSumo\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use YourNamespace\AppSumo\AppSumo;
+use mdhedayet\appsumolicensing\AppSumo;
 
 class OAuthController extends Controller
 {
