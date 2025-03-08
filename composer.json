@@ -5,21 +5,18 @@
     "license": "MIT",
     "autoload": {
       "psr-4": {
-        "MdHedayet\\AppSumo\\": "src/"
+        "MdHedayet\\AppSumo-Licensing\\": "src/"
       }
     },
     "extra": {
       "laravel": {
         "providers": [
-          "MdHedayet\\AppSumo\\AppSumoServiceProvider"
-        ],
-        "aliases": {
-          "AppSumo": "MdHedayet\\AppSumo\\Facades\\AppSumo"
-        }
+          "MdHedayet\\AppSumo-Licensing\\AppSumoServiceProvider"
+        ]
       }
     },
     "require": {
-      "php": ">=7.4",
+      "php": ">=7.3 || ^8.0",
       "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
       "guzzlehttp/guzzle": "^7.0"
     }
