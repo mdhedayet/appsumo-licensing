@@ -1,4 +1,3 @@
-```markdown
 # AppSumo Laravel Package
 
 A Laravel package for seamless integration with AppSumo Licensing. This package handles the OAuth flow and webhook events automatically, so you can easily manage license activations, upgrades, downgrades, and deactivations directly from your Laravel application.
@@ -135,4 +134,3 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 ## License
 
 This project is open-sourced software licensed under the [MIT license](LICENSE).
-```
