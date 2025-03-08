@@ -21,7 +21,7 @@ A Laravel package for seamless integration with AppSumo Licensing. This package 
 Install the package via Composer:
 
 ```bash
-composer require your-namespace/appsumo
+composer require mdhedayet/appsumo-licensing
 ```
 
 ## Configuration
